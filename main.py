@@ -12,7 +12,7 @@ async def main():
         partner = await get_user_input("Enter partner: ")
         amount = int(await get_user_input("Enter amount: "))
 
-        url = "https://viu.bakumusal.my.id/api"
+        url = "https://api.viupremium.us.kg/create-account"
 
         payload = {
             "domain": domain,
